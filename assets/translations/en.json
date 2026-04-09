@@ -1,0 +1,36 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "empty": "No data found",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "back": "Back"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "confirm_password": "Confirm Password",
+    "login_success": "Logged in successfully",
+    "register_success": "Registered successfully",
+    "invalid_email": "Please enter a valid email",
+    "invalid_password": "Password must be at least 8 characters"
+  },
+  "onboarding": {
+    "skip": "Skip",
+    "next": "Next",
+    "get_started": "Get Started",
+    "page1_title": "Welcome",
+    "page1_desc": "Discover amazing features",
+    "page2_title": "Easy to Use",
+    "page2_desc": "Simple and intuitive design",
+    "page3_title": "Get Started",
+    "page3_desc": "Join us today"
+  }
+}
