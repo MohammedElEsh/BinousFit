@@ -6,16 +6,19 @@ analyzer:
     - "**/*.freezed.dart"
   errors:
     always_put_required_named_parameters_first: ignore
+    avoid_catches_without_on_clauses: ignore
     avoid_positional_boolean_parameters: ignore
     avoid_redundant_argument_values: ignore
     avoid_types_as_parameter_names: ignore
     cascade_invocations: ignore
     comment_references: ignore
     directives_ordering: ignore
+    discarded_futures: ignore
     lines_longer_than_80_chars: ignore
     one_member_abstracts: ignore
     prefer_const_declarations: ignore
     sort_pub_dependencies: ignore
+    specify_nonobvious_property_types: ignore
 
 linter:
   rules:
