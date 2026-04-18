@@ -1,39 +1,37 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'app_colors.dart';
 
-/// Typography scale used across the app.
 class AppTextStyles {
-  AppTextStyles._();
-
-  static const TextStyle headingLarge = TextStyle(
-    fontSize: 32,
+  static TextStyle headingLarge = TextStyle(
+    fontSize: 32.sp,
     fontWeight: FontWeight.bold,
-    color: AppColors.primary,
+    color: AppColors.mainBlue,
   );
 
-  static const TextStyle headingMedium = TextStyle(
-    fontSize: 24,
+  static TextStyle headingMedium = TextStyle(
+    fontSize: 24.sp,
     fontWeight: FontWeight.w600,
   );
 
-  static const TextStyle bodyLarge = TextStyle(
-    fontSize: 16,
+  static TextStyle bodyLarge = TextStyle(
+    fontSize: 16.sp,
     fontWeight: FontWeight.normal,
   );
 
-  static const TextStyle bodyMedium = TextStyle(
-    fontSize: 14,
+  static TextStyle bodyMedium = TextStyle(
+    fontSize: 14.sp,
     fontWeight: FontWeight.normal,
   );
 
-  static const TextStyle caption = TextStyle(
-    fontSize: 12,
-    color: Colors.grey,
+  static TextStyle caption = TextStyle(
+    fontSize: 12.sp,
+    color: AppColors.mainGray,
   );
 
-  static const TextStyle button = TextStyle(
-    fontSize: 14,
+  static TextStyle button = TextStyle(
+    fontSize: 14.sp,
     fontWeight: FontWeight.w600,
   );
 }
